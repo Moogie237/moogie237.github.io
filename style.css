@@ -1,5 +1,6 @@
-/* white: f2f2f2*/
+/*1280 x 679*/
 
+/* white: f2f2f2*/
 
 /* blue colors */
 /* light: #A9A1C3*/
@@ -26,7 +27,17 @@ h2 {
      font-family: "Consolas";
 }
 
-p {
+h3 {
+     font-size: 18px;
+     font-family: "Consolas";
+}
+
+h4 {
+     font-size: 16px;
+     font-family: "Consolas";
+}
+
+p, li {
      font-size: 14px;
      font-family: "Consolas";
 }
@@ -55,7 +66,7 @@ main {
      background-color: #B1A2B9; /*light*/
 }
 
-main p {
+main p, li {
      color: #2F0147; /*dark*/
 }
 
@@ -123,18 +134,16 @@ footer h2 {
 
 .column {
   float: left;
-  background-color: #f2f2f2; /*white*/
 }
 
 /* Left and right column */
 .column.side {
   width: 25%;
-  background-color: #f2f2f2; /*white*/
 }
 
 /* Middle column */
 .column.middle {
-  width: 50%;
+  width: 48%;
 }
 
 .trans {
@@ -159,4 +168,19 @@ footer h2 {
 
 .home.lastp {
      margin-bottom: 0;
+}
+
+.resume h3, h4{
+     color: #2F0147; /*dark*/
+     margin: 0;
+     margin-bottom: 5px;
+}
+
+.resume p, li {
+     text-align: left;
+}
+
+.resume.block {
+     display: block;
+     overflow: auto;
 }
