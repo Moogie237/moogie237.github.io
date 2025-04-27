@@ -1,47 +1,135 @@
-/* Create three equal columns that float next to each other */
-.center {
-     display: block;
-    margin-left: auto;
-    margin-right: auto
+/* white: f2f2f2*/
+
+
+/* blue colors */
+/* light: #A9A1C3*/
+/* med: #615194*/
+/* dark: 180065*/
+
+/* purple colors colors */
+/* light: B1A2B9*/
+/* med: 705180*/
+/* dark: 2F0147*/
+
+/* red colors */
+/* light: C0A2AF*/
+/* med: 8D516B*/
+/* dark: 5B0128*/
+
+h1 {
+     font-size: 40px;
+     font-family: "Consolas";
 }
 
-.header {
-     background-color: #F1F1F1;
+h2 {
+     font-size: 20px;
+     font-family: "Consolas";
+}
+
+p {
+     font-size: 14px;
+     font-family: "Consolas";
+}
+
+html {
+     background-color: #2F0147; /*dark*/
+}
+
+header {
+     background-color: #B1A2B9; /*light*/
      text-align: center;
+}
+
+header h1 {
+     background-color: #705180; /*mid*/
+     color: #2f0147; /*dark*/
+}
+
+body {
+     background-color: #705180; /*mid*/
+}
+
+
+main {
+     padding: 10px 20px 10px 20px;
+     background-color: #B1A2B9; /*light*/
+}
+
+main p {
+     color: #2F0147; /*dark*/
+}
+
+main h2 {
+     color: #2f0147; /*dark*/
+     background-color: #705180; /*mid*/
+     text-align: center;
+     margin: 0;
+}
+
+table, th, td{
+     border: 1px solid #2F0147; /*dark*/
+     font-size: 14px;
+     font-family: "Consolas";  
+}
+
+footer {
+     background-color: #B1A2B9; /*light*/
+     color: #2F0147; /*dark*/
+     text-align: center;
+     padding: 10px 20px 10px 20px;
+     Font-family: "Consolas";
+}
+
+footer h2 {
+     background-color: #705180; /*mid*/
+     margin: 0;
+}
+
+/*title at top of screen*/
+.title {
      padding: 20px;
+}
+.title h1 {
+     margin: 0;
 }
 
 /* The navbar container */
 .topnav {
-     overflow: hidden;
-     background-color: #333;
+     padding: 10px 20px 10px 20px;
 }
 
+.topnav nav {
+     overflow: hidden;
+     background-color: #2F0147; /*dark*/
+}
 /* Navbar links */
 .topnav a {
      float: left;
      display: block;
-     color: #f2f2f2;
+     color: #B1A2B9; /*light*/
+     line-height: 1.5;
      text-align: center;
-     padding: 14px 16px;
+     padding: 14px 14px;
      text-decoration: none;
+     Font-family: "Consolas"
 }
 
 /* Links - change color on hover */
 .topnav a:hover {
-     background-color: #ddd;
-     color: black;
+     background-color: #705180; /*mid*/
+     color: #f2f2f2; /*white*/
+     Font-family: "Consolas"
 }
 
 .column {
   float: left;
-  background-color: #f2f2f2;
+  background-color: #f2f2f2; /*white*/
 }
 
 /* Left and right column */
 .column.side {
   width: 25%;
-  background-color: #ffffff;
+  background-color: #f2f2f2; /*white*/
 }
 
 /* Middle column */
@@ -49,25 +137,26 @@
   width: 50%;
 }
 
-.translation {
-     text-indent: 50px;
+.trans {
+     font-family: "Consolas";
+     color: #2F0147; /*dark*/
 }
 
-.transintro {
-     color: grey;
+.trans.io {
      margin-left: 50px;
+     margin-right: 50px;
+     background-color: #705180; /*mid*/
 }
 
-.transoutro {
-     color:grey;
-}
-
-table, th, td{
-   border: 1px solid black;  
-}
-
-.footer {
-     background-color: #F1F1F1;
-     text-align: center;
+.trans.io p {
      padding: 10px;
+}
+
+.home {
+     font-family: "Consolas";
+     background-color: #B1A2B9;  /*light*/
+}
+
+.home.lastp {
+     margin-bottom: 0;
 }
